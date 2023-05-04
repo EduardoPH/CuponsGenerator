@@ -11,7 +11,7 @@
 
 ## Demonstração
 
-![CuponsGenerator]('https://cuponsgenerate.vercel.app/')
+https://cuponsgenerate.vercel.app/
 
 ## Instalação
 
