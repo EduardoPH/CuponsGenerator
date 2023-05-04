@@ -1,0 +1,36 @@
+button:not([disabled]):hover {
+  filter: brightness(0.8);
+  transition: ease-in-out 0.2s;
+}
+
+button:disabled {
+  color: transparent;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:disabled::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid transparent;
+  border-top-color: #0d1321;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
