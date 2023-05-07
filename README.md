@@ -1,3 +1,7 @@
+# CuponsGenerator
+
+Este projeto objetiva o desenvolvimento de uma aplicação WEB para criação de contas McDonald's afim de coletar cupons e promoções. Vale lembrar que é apenas um projeto de fins pedagógicos (por isso o projeto é open-source), não utilize para fins mal intencionados.
+
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"></a>
   <a href="#"><img src="https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white"></a>
